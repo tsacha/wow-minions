@@ -1,0 +1,89 @@
+{
+  "63765": {
+    "label": "Springy Arachnoweave",
+    "learnSpellId": 63765,
+    "reagents": [
+      [33470,12],
+      [39682,1]
+    ]
+  },
+  "56039": {
+    "label": "Sanctified Spellthread",
+    "learnSpellId": 56039,
+    "reagents": [
+      [38426, 1]
+    ]
+  },
+  "55642": {
+    "label": "Lightweave Embroidery",
+    "learnSpellId": 55642,
+    "reagents": [
+      [41594, 1],
+      [38426, 1]
+    ]
+  },
+  "57691": {
+    "label": "Fur Lining - Spell Power",
+    "learnSpellId": 57691,
+    "reagents": [
+      [44128, 1]
+    ]
+  },
+  "57690": {
+    "label": "Fur Lining - Stamina",
+    "learnSpellId": 57690,
+    "reagents": [
+      [44128, 1]
+    ]
+  },
+  "60583": {
+    "label": "Jormungar Leg Reinforcements",
+    "learnSpellId": 60583,
+    "reagents": [
+      [38561, 2]
+    ]
+  },
+
+  "55002": {
+    "label": "Flexweave Underlay",
+    "learnSpellId": 55002,
+    "reagents": [
+      [33470,12],
+      [39682,1]
+    ]
+  },
+
+  "_readme": "Keys = enchant spell id (Wowhead gear planner slot.enchant). Entries here use .learn + reagent .additem and OVERRIDE inscription scrolls when both exist (e.g. 55016). learnSpellId defaults to the key. Reagents from SpellReagents / in-game.",
+  "54999": {
+    "label": "Hyperspeed Accelerators",
+    "learnSpellId": 54999,
+    "reagents": [
+      [36913, 6],
+      [37700, 4]
+    ]
+  },
+  "55016": {
+    "label": "Nitro Boosts",
+    "learnSpellId": 55016,
+    "reagents": [
+      [39681, 6],
+      [39690, 6]
+    ]
+  },
+  "63770": {
+    "label": "Reticulated Armor Webbing",
+    "learnSpellId": 63770,
+    "reagents": [
+      [36913, 4],
+      [35624, 2]
+    ]
+  },
+  "67839": {
+    "label": "Mind Amplification Dish",
+    "learnSpellId": 67839,
+    "reagents": [
+      [36913, 8],
+      [39683, 1]
+    ]
+  }
+}

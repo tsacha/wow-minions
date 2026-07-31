@@ -1,0 +1,13 @@
+.env
+.cursor
+.zig-cache
+zig-out
+zig-pkg
+logs/
+**/__pycache__
+.claude
+clients/wotlk
+clients/tbc
+clients/classic
+mmaps/
+.sway

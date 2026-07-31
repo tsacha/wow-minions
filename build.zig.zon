@@ -1,0 +1,25 @@
+.{
+    .name = .wow_minions,
+    .version = "0.0.1",
+    .fingerprint = 0x50f90eb734f05193,
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .raylib = .{
+            .url = "git+https://github.com/raysan5/raylib#6.0",
+            .hash = "raylib-6.0.0-whq8uCSwLgWWeF3ec3dbG6Rr36SLFL-s2WJ1Q_2E22Bb",
+        },
+        .recastnavigation = .{
+            .url = "git+https://github.com/recastnavigation/recastnavigation?ref=v1.6.0#6dc1667f580357e8a2154c28b7867bea7e8ad3a7",
+            .hash = "N-V-__8AAGlkOgBJIQtSwXEF4eOCP6QRtlUavwI7EB9V8B8B",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "tools",
+        "scripts",
+        "examples",
+        "README.md",
+    },
+}

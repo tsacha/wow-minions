@@ -1,0 +1,35 @@
+const win32 = @import("win32");
+const proto = @import("protocol");
+
+pub const pipe_name = proto.pipe_name;
+pub const dll_path = "C:\\windows\\SysWOW64\\minion.dll";
+pub const default_client_path = "Z:\\home\\sacha\\WoW\\vibe-botted\\client\\Wow.exe";
+pub const injection_timeout_ms: u32 = 10_000;
+pub const minion_logs_dir = "logs";
+pub const window_poll_interval_ms: u32 = 200;
+pub const window_poll_max_ms: u32 = 30_000;
+pub const default_window_width: i32 = 640;
+pub const default_window_height: i32 = 480;
+pub const grid_cols: i32 = 7;
+pub const window_poll_attempts: u32 = window_poll_max_ms / window_poll_interval_ms;
+pub const crash_window_poll_interval_ms: u32 = 200;
+pub const crash_window_cleanup_grace_ms: u32 = 2_000;
+pub const crash_window_title_capacity: usize = 256;
+pub const max_crash_windows: usize = 8;
+pub const crash_cleanup_exit_code: win32.UINT = 1;
+pub const pipe_buffer_size: win32.DWORD = 4096;
+pub const bot_id_capacity: usize = 64;
+pub const client_path_capacity: usize = 512;
+pub const resolution_env_capacity: usize = 32;
+pub const log_filename_capacity: usize = 160;
+pub const window_title_capacity: usize = 80;
+pub const pipe_reader_buffer_size: usize = 4096;
+pub const gwl_style_index: c_int = -16;
+pub const strip_window_style_mask: win32.LONG = win32.WS_CAPTION | win32.WS_THICKFRAME |
+    win32.WS_MINIMIZEBOX | win32.WS_MAXIMIZEBOX | win32.WS_SYSMENU;
+pub const swp_no_size: win32.UINT = 0x0001;
+pub const swp_no_move: win32.UINT = 0x0002;
+pub const swp_no_zorder: win32.UINT = 0x0004;
+pub const swp_frame_changed: win32.UINT = 0x0020;
+pub const resize_borderless_flags: win32.UINT = swp_no_move | swp_no_zorder | swp_frame_changed;
+pub const refresh_frame_flags: win32.UINT = swp_no_size | resize_borderless_flags;
